@@ -1,8 +1,12 @@
 import "./App.css";
-import Heading from "./components/Heading";
+import List from "./components/List";
 
-function Heading() {
-  return <h1>text</h1>;
+function App() {
+  return (
+    <div className="container">
+      <List items={["apple", "orange", "grapes", "banana", "mango"]} />
+    </div>
+  );
 }
 
 export default App;
