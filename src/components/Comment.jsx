@@ -1,16 +1,8 @@
-/*
-function Button({ label, onClick }) {
-    return <button onClick={onClick}>{label}</button>;
-  }
-  
-  export default Button;
-*/
-
 function Comment({ name, email, body }) {
   return (
     <div>
-      <p>{name}</p>
-      <p>{email}</p>
+      <h1>{name}</h1>
+      <h1>{email}</h1>
       <p>{body}</p>
     </div>
   );

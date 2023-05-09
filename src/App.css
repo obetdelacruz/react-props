@@ -1,3 +1,21 @@
-.container {
-  border: ;
+.main-container {
+}
+
+.btn-container {
+  width: 1px;
+  margin-bottom: 25px;
+  align-items: baseline;
+}
+
+.comment-container {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 10px solid green;
+}
+
+.comment-container h1 {
+  text-align: center;
+}
+
+.comment-container p {
+  font-style: italic;
 }
